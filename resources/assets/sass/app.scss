@@ -1,2 +1,22 @@
-// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
+body  {
+
+}
+
+.navbar   {
+  border-radius: 0;
+}
+
+footer {
+  background: #333;
+  color: #999;  
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+main  {
+  min-height: 400px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
