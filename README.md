@@ -20,10 +20,11 @@ We will be building a simple blog application to get to know Laravel 5.
 
 1. Clone the repo: `git@github.com:scotch-io/laravel-blog-course.git`
 2. Go into our new directory: `cd laravel-blog-course`
-3. Setup your server and database connection
-4. Create `.env` file (copy `.env.example`)
-5. Migrate and seed: `php artisan migrate:refresh --seed`
-5. Visit in the browser
+3. Install dependencies: `composer install`
+4. Setup your server and database connection
+5. Create `.env` file (copy `.env.example`)
+6. Migrate and seed: `php artisan migrate:refresh --seed`
+7. Visit in the browser
 
 ## A Quick Install
 
