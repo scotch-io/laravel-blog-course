@@ -18,15 +18,17 @@ We will be building a simple blog application to get to know Laravel 5.
 
 ## Installation
 
-1. Clone the repo: `git@github.com:scotch-io/laravel-blog-course.git`
-2. Go into our new directory: `cd laravel-blog-course`
-3. Install dependencies: `composer install`
-4. Setup your server and database connection
-5. Create `.env` file (copy `.env.example`)
-6. Migrate and seed: `php artisan migrate:refresh --seed`
-7. Visit in the browser
+- Clone the repo: `git clone git@github.com:scotch-io/laravel-blog-course.git`
+- Go into our new directory: `cd laravel-blog-course`
+- Install PHP dependencies: `composer install`
+- Install npm dependencies: `npm install`
+- Setup your server and database connection
+- Create `.env` file (copy `.env.example`)
+- Create an app key: `php artisan key:generate`
+- Migrate and seed: `php artisan migrate:refresh --seed`
+- Visit in the browser: <http://localhost:8000>
 
-## A Quick Install
+## A Quick Server + Database Connection
 
 To quickly get this setup without a VM and without a large database system, we can use the [PHP built-in server](http://php.net/manual/en/features.commandline.webserver.php) and file-based [sqlite](https://www.sqlite.org/).
 

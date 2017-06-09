@@ -2,39 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Blog</title>
+    <title>Super Blog</title>
 
-    {{-- CSS --}}
+    {{-- css --}}
     <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-    
-    {{-- HEADER --}}
+
     <header>
-        <nav class="navbar navbar-inverse">
-            <div class="container">
-                <div class="navbar-header">
-                    <a href="/" class="navbar-brand">My Blog</a>
-                </div>
-
-
-                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/about">About</a></li>
-                        <li><a href="/contact">About</a></li>
-
-                        {{-- LOGIN BUTTON HERE --}}
-                        <li><a href="/login">Login</a></li> 
-
-                        {{-- TODO: USER PROFILE LINK HERE --}}
-                    </ul>
-                </div>
-            </div> 
-        </nav>
+        <nav class="navbar navbar-default">
+        <div class="container">
+            <a href="#" class="navbar-brand">Super Blog</a>
+            <ul class="nav navbar-nav">
+                <li><a href="/">Home</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/login">Login</a></li>
+                <li><a href="/logout">Logout</a></li>
+                <li><a href="/profile">User</a></li>
+            </ul>
+        </div>
+        </nav> 
     </header>
+
+    <footer>
+        <div class="container text-center">
+            Copyright &copy; {{ date('Y') }} Super Blog
+        </div>
+    </footer>
     
-    {{-- JS --}}
-    <script src="js/all.js"></script>
 </body>
 </html>
